@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mediac",
+  "version": "${version}",
+  "name": "Mediac",
+  "description": "Control media playback from within Minecraft",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/mediac/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pet.aprl.mediac.client.MediacClient"
+    ]
+  },
+  "mixins": [
+    "mediac.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

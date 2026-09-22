@@ -1,0 +1,8 @@
+{
+  "key.category.mediac.controls": "Mediac",
+  "key.mediac.play_pause": "Play/Pause",
+  "key.mediac.next": "Next Track",
+  "key.mediac.previous": "Previous Track",
+  "key.mediac.toggle_hud": "Show/Hide Now Playing",
+  "mediac.hud.paused": "Paused"
+}
